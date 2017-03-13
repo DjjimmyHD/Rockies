@@ -1,0 +1,71 @@
+### Goals ###
+ - At the core I want to be able to create a website that answers the simple question, "is there a rockies game today"
+ - I want to be provide an easy to read answer to the question with maybe a few extra pieces of information
+  - was there a game?
+  - when is the next game?
+  - when is the next home game?
+  - what can I do in Denver before the game?
+  - what can I do in Denver after the game?
+  - are there other events happening before, during or after the game?
+  - what is traffic like?
+  - what is the light rail schedule?
+  - is there relevant rockies news?
+  - if I get there early do I get cool shit?
+### Requirements ###
+- Follow an agile workflow
+  - Work with your product owner to define several strong agile user stories
+  - Work with your product owner to come up with a few hand-drawn wireframes
+  - Add your stories to your Pivotal Tracker project
+- HTML
+  - Make good use of semantic HTML tags
+  - Be well-indented, validated, etc.
+  - Include some embedded media (images, audio, video, canvas)
+  - Optionally, use a templating engine
+- CSS
+  - Use a styling framework like Materialize or Bootstrap
+  - Be well-indented and clean
+  - Split code into separate files where appropriate
+  - Responsive design optional but strongly encouraged
+- JavaScript
+  - DOM manipulation via JavaScript or jQuery
+  - Integration with some external API via XHR or AJAX
+  - Response to some user-initiated events
+  - Well-indented, linted, and use excellent variable names
+  - Split code into separate files where appropriate
+  - Optionally, use a test-driven development approach
+- User Input
+  - Use at least one web form
+  - Validate user input
+  - Optionally, persist user data using something like LocalStorage
+- Workflow
+  - Use wireframes to create your layouts before you build them
+  - Use a feature-branch workflow for your user stories
+  - Optionally, do some build-tooling with something like Gulp
+### CODE NOTES ###
+- The api I am using gave me the code to get data I need now I need to start manipulating it
+  - It came in long form and I am just going to leave it as is for now
+  - I am going to change .done to .then and .fail to .catch
+- I will start by seeing if I can just get the schedule for the whole 2017 season
+- I have the schedule and I changed the .done and .fail
+- The schedule is being logged as data with [2430] arrays
+- I want to build a loop to sort through all rockies games then separate those by rockies home games vs rockies away games
+  - Side note I am unsure if I can still call data after the ajax request but I am pretty sure using .then will allow me to do it with out returning
+- colorado codes
+  - AwayTeamID: 23
+  - HomeTeamID: 23
+  - AwayTeam: COL
+  - HomeTeam: COL
+  - StadiumID: 44
+- Ok I was able to access the first object at index 0 and log it
+- Now I want to create a loop that goes through and creates two separate arrays
+  - one i want to sort by AwayTeam: COL
+  - one I want to sort by HomeTeam: COL
+- Got the loops working to sort out the home and away schedule
+  - I sorted by stadiumID and AwayTeamID
+- I annotated where the code is I think I am just going to comment out my console logs that way I know where they are and that the code was working on each step
+- I dont want to just display all the scheduled home games, I want to have a way to when a button is clicked or when the page is loaded, I check the current day with the array of home games and then I pull out a few things
+  - things I want to grab from the homeList
+    - who the rockies are playing
+    - what time the rockies are playing
+- This will involve making editing my html so I am going to make my first commit here
+///FIRST COMMIT///
