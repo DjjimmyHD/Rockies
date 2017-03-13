@@ -69,3 +69,6 @@
     - what time the rockies are playing
 - This will involve making editing my html so I am going to make my first commit here
 ///FIRST COMMIT///
+- I am going to edit the index so I can start pushing the data to a web page
+- Messed around the index so I can see how I am going to get the current date. It is a jquery function that just needs to be pieced together
+- Going to make another commit so I can see what I did in case something breaks later on
