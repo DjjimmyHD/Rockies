@@ -72,3 +72,24 @@
 - I am going to edit the index so I can start pushing the data to a web page
 - Messed around the index so I can see how I am going to get the current date. It is a jquery function that just needs to be pieced together
 - Going to make another commit so I can see what I did in case something breaks later on
+///SECOND COMMIT///
+- I going to leave the button for now but eventually get date will need to be a function so that I can compare it against the home schedule
+- I am considering passing the get date function through both arrays and having another if/else statement that way we can display the times or future game
+- "Status": "Scheduled",
+- "Day": "2017-04-02T00:00:00"
+- "DateTime": "2017-04-02T16:00:00"
+- if current day === any day in home list array then execute a function for yes
+  - Yes should display the time and the opponent
+- else if find next game and display time and location and opponent
+- Right now I am doing materialize and i just want to get the variables down for what I want to display and how it might look on the page
+  - I have put a pin in styling for now and gone back to wire framing
+  - I have a good idea of what variables I need and how I want the page to flow
+- I am going to focus on getting the following variables, I can't decide if I think after I get each one I am going to test and then commit
+SIDE NOTE FOR WHAT I WANT TO SHOW
+      - if today's date matches a day in the home rockies schedule I want to display the time of the game and their opponent
+      - if today's date matches a day in the away rockies schedule I want to display the time of the game and their opponent
+      - if the current day has no match I want to find the date closest game to the current date and display the location of the games I want to say there is no game today
+        - if the game is home I want to display it as home with day and time and opponent
+        - if the game is away I want to display it as away with the day and time and opponent
+- I am going to commit here because I have the loop basically running how I want. I have the syntax. Next I will work on figuring out how to display the next closest away or home game
+///THIRD COMMIT///
