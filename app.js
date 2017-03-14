@@ -56,8 +56,13 @@ $(function() {
                 console.log(info);
                 return info
 
-            } else if (!game === true) {
-                console.log(checkSchedule(awayTime))
+            } else if (away) {
+                // console.log(checkSchedule(awayTime))
+
+                checkSchedule(awayTime)
+                    var info = away.DateTime + away.HomeTeam
+                    console.log(info);
+
 
 
             } if (!game === true && !away === true) {
@@ -72,7 +77,7 @@ $(function() {
 function checkSchedule(array) {
     var dateString = "meow"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === 47607 ) {
+        if (array[i].GameID === 47558 ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }

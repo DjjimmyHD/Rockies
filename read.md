@@ -126,3 +126,7 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
     - GameID 47558 is away
     - GameId 47607 is home
 - Displays the info I want if home is true
+///6TH COMMIT///
+- Going to try and get the values is away is true
+///7th COMMIT///
+- 
