@@ -22,50 +22,57 @@ $(function() {
         .then(function(data) {
             alert("success");
 
-// Data is logging here
-// console.log(data);
+            // Data is logging here
+            // console.log(data);
             return data
 
         }).then(function(home) {
             var homeList = []
             var awayList = []
-// creating the loop to sort home games and away games for the rockies
+            // creating the loop to sort home games and away games for the rockies
             for (var i = 0; i < home.length; i++) {
                 if (home[i].StadiumID === 44) {
                     homeList.push(home[i]);
-                }else if (home[i].AwayTeamID === 23) {
+                } else if (home[i].AwayTeamID === 23) {
                     awayList.push(home[i]);
                 }
-// was considering putting else statement here that filled another array with the rest of the data
+                // was considering putting else statement here that filled another array with the rest of the data
             }
-// holy shit the rockies play 81 home and 81 away games
-// console.log(homeList);
-// console.log(awayList);
-                    return [homeList, awayList]
-        }).then(function(schedule){
+            // holy shit the rockies play 81 home and 81 away games
+            // console.log(homeList);
+            // console.log(awayList);
+            return [homeList, awayList]
+        }).then(function(schedule) {
+
             var homeTime = schedule[0]
             var awayTime = schedule[1]
-//gotta be a better way to do this unsure how
-            for (var i = 0; i < homeTime.length; i++) {
-                if   (homeTime[i].Day === dateString) {
-                    console.log(homeTime[i].DateTime, homeTime[i].AwayTeam)
-                }
-            for (var i = 0; i < array.length; i++) {
-                else if (awayTime[i].Day === dateString) {
-                    console.log(awayTime[i].DateTime, awayTime[i].HomeTeam);
-                }
-            }   else {
-                console.log("no game today");
+            var game = checkSchedule(homeTime)
+            // var away = checkSchedule(awayTime)
+            console.log(typeof(game));
+            // !game === true ? console.log('hello') : console.log('no');
+            if (!game === true) {
+
+                console.log(checkSchedule(awayTime))
+
+            } else  {
+                console.log('no game today')
 
             }
-//if statement to run if the else runs
-            if ()
 
-            // console.log(homeTime[0].Day;
 
+            console.log(homeTime);
         })
 });
 
+function checkSchedule(array) {
+    var dateString = "meow"
+    for (var i = 0; i < array.length; i++) {
+        if (array[i].GameID === 47607) {
+            // (console.log(array[i].DateTime, array[i].AwayTeam))
+            return array[i]
+        }
+    }
+}
 
 // function for getting the current date to display
 // $('#click').click(function (){

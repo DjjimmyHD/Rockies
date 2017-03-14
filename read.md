@@ -83,13 +83,39 @@
 - else if find next game and display time and location and opponent
 - Right now I am doing materialize and i just want to get the variables down for what I want to display and how it might look on the page
   - I have put a pin in styling for now and gone back to wire framing
-  - I have a good idea of what variables I need and how I want the page to flow
+  - I have a good idea of what variables I need and how I want the p-age to flow
 - I am going to focus on getting the following variables, I can't decide if I think after I get each one I am going to test and then commit
 SIDE NOTE FOR WHAT I WANT TO SHOW
       - if today's date matches a day in the home rockies schedule I want to display the time of the game and their opponent
       - if today's date matches a day in the away rockies schedule I want to display the time of the game and their opponent
-      - if the current day has no match I want to find the date closest game to the current date and display the location of the games I want to say there is no game today
+      - if no matches I want to say no game
         - if the game is home I want to display it as home with day and time and opponent
         - if the game is away I want to display it as away with the day and time and opponent
 - I am going to commit here because I have the loop basically running how I want. I have the syntax. Next I will work on figuring out how to display the next closest away or home game
 ///THIRD COMMIT///
+- Just got done meeting with Brooks and as I suspected I need to turn everything into a function, finger crossed
+//gotta be a better way to do this unsure how
+            for (var i = 0; i < homeTime.length; i++) {
+                if   (homeTime[i].Day === dateString) {
+                    console.log(homeTime[i].DateTime, homeTime[i].AwayTeam)
+                }
+            for (var i = 0; i < awayTime.length; i++) {
+                else if (awayTime[i].Day === dateString) {
+                    console.log(awayTime[i].DateTime, awayTime[i].HomeTeam);
+                }
+            }   else {
+                console.log("no game today");
+
+            }
+//if statement to run if the else runs
+            if ()
+
+            // console.log(homeTime[0].Day;
+- So it is working but I had to substitue .Attendance for .day in my function because when I ran it I expected to get a console log of "no game today" but I didnt. On the plus side the function is working
+- Going to try with .GameID to see if I can isolate one specific result
+  - IT WORKED WHY DOESNT MY ELSE STATEMENT WORK GOD BLESS IT
+  - game id works for home I am testing it with away to see if it is even making it to the else statement
+    - ..... the away statement works WHY DOESNT MY ELSE LOG KAjhdkshFKJAHSDKJAHD
+- Well I wasnt returning a value in my function so I am going to try and see if I can just make it an if, else if, else statement
+- before I break things I am going to commit
+///4TH COMMIT///
