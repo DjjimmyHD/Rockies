@@ -121,3 +121,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 ///4TH COMMIT///
 - Ok I got it working, I am going to commit lol
 ///5th COMMIT///
+- time to start working on a way to get the specific data I want if my home or away matches the current date
+- since there aren't games for a while I am using GameID to make sure away and home are running
+    - GameID 47558 is away
+    - GameId 47607 is home
+- Displays the info I want if home is true

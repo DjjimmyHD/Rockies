@@ -51,8 +51,10 @@ $(function() {
             console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
             if (game) {
-
-                console.log(game);
+                var info = game.DateTime + game.AwayTeam
+                // console.log(game);
+                console.log(info);
+                return info
 
             } else if (!game === true) {
                 console.log(checkSchedule(awayTime))
@@ -70,7 +72,7 @@ $(function() {
 function checkSchedule(array) {
     var dateString = "meow"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === dateString) {
+        if (array[i].GameID === 47607 ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }
