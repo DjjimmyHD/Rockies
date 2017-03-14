@@ -47,27 +47,30 @@ $(function() {
             var homeTime = schedule[0]
             var awayTime = schedule[1]
             var game = checkSchedule(homeTime)
-            // var away = checkSchedule(awayTime)
-            console.log(typeof(game));
+            var away = checkSchedule(awayTime)
+            console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
-            if (!game === true) {
+            if (game) {
 
+                console.log(game);
+
+            } else if (!game === true) {
                 console.log(checkSchedule(awayTime))
 
-            } else  {
-                console.log('no game today')
 
+            } if (!game === true && !away === true) {
+                console.log("no game today")
             }
 
 
-            console.log(homeTime);
+            console.log(awayTime);
         })
 });
 
 function checkSchedule(array) {
     var dateString = "meow"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === 47607) {
+        if (array[i].GameID === dateString) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }

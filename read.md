@@ -119,3 +119,5 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - Well I wasnt returning a value in my function so I am going to try and see if I can just make it an if, else if, else statement
 - before I break things I am going to commit
 ///4TH COMMIT///
+- Ok I got it working, I am going to commit lol
+///5th COMMIT///
