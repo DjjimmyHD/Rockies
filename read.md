@@ -129,4 +129,5 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 ///6TH COMMIT///
 - Going to try and get the values is away is true
 ///7th COMMIT///
-- 
+- All three conditions work time to start working on formatting them and displaying them on the webpage
+///8th COMMIT///

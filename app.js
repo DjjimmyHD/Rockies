@@ -77,7 +77,7 @@ $(function() {
 function checkSchedule(array) {
     var dateString = "meow"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === 47558 ) {
+        if (array[i].GameID === dateString ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }
