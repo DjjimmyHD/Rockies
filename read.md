@@ -163,4 +163,9 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - time to try and see it the whole thing works
 - cool after some tinkering everything works
 - I need to add some comments so I know what is going on but looking good
-///14th COMMIT/// 
+///14th COMMIT///
+- Need to test so that when give a day for home and away and no game each work individually
+  - away works
+  - home works
+  - default work
+///15th Commit///

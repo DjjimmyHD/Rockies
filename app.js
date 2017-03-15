@@ -50,9 +50,9 @@ $(function() {
             var awayTime = schedule[1]
             var game = checkSchedule(homeTime)
             var away = checkSchedule(awayTime)
-            console.log(game);
-            console.log(away);
             // console.log(game);
+            // console.log(away);
+            // // console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
             if (game) {
                 var time = game.DateTime
@@ -81,19 +81,20 @@ $(function() {
 
                 // console.log("no game today")
             }
-
+    // console.log(homeTime);
         })
-        // console.log(awayTime);
+
         })
 });
 
 function checkSchedule(array) {
-    // var today = new Date()
-    var today = "2017-04-03T00:00:00"
+    var today = new Date()
+    // var todayHome ="2017-04-07T16:10:00"
+    // var todayAway = "2017-04-03T00:00:00"
     // var testString = "2017-04-03T00:00:00"
-    // var testString = today.toISOString()
-    var dateString = today.substring(0,10)
-    console.log(dateString);
+    var convertDate = today.toISOString()
+    var dateString = convertDate.substring(0,10)
+    // console.log(dateString);
     for (var i = 0; i < array.length; i++) {
         var matchDate = array[i].Day.substring(0,10)
         // array[i].Day = array[i].Day.substring(0,10)
@@ -101,7 +102,7 @@ function checkSchedule(array) {
         // console.log(matchDate);
         if (matchDate === dateString ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
-            console.log(matchDate);
+            // console.log(matchDate);
             return array[i]
 
         }
