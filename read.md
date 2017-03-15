@@ -148,3 +148,11 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - I set var dateString to a certain day that the rockies were playing to make sure everything worked
   - it did
 ///11th COMMIT///
+- deleted the set date string I had commented out at bottom of page
+- Trying a formula to make the date and time more useable
+- Before I even get to a useable formula I am researching the date() function in JavaScript
+  - I am fairly certain this will be a good use of my time
+  - ALL DateTime KEYS HAVE ARE IN DATETIME AND EST
+- Peter helped me find a way to maybe manipulate the date and what not for matching purposes going to comment it out and run my code to make sure it is working, then I will commit and try the new method
+- Dope nothing broken time for commit
+///12th Commit///
