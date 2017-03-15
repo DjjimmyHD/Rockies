@@ -156,3 +156,7 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - Peter helped me find a way to maybe manipulate the date and what not for matching purposes going to comment it out and run my code to make sure it is working, then I will commit and try the new method
 - Dope nothing broken time for commit
 ///12th Commit///
+- So the first part works I can get a string that is useable
+- I set up a click function to check with out running the api
+- Going to commit and make sure that I can do the same thing to the actual day
+///13th COMMIT/// 
