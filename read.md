@@ -169,3 +169,11 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
   - home works
   - default work
 ///15th Commit///
+- Time to format the time so it displays correctly
+- Time displays correctly for the home game
+- Also added a date format in case I want it
+- I am going to do the same for away game
+  - away game works
+- Time to test the default
+  -Default works
+///16th COMMIT///

@@ -52,27 +52,33 @@ $(function() {
             var away = checkSchedule(awayTime)
             // console.log(game);
             // console.log(away);
-            // // console.log(game);
+            // console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
             if (game) {
+                var date = game.Day.substring(0,10)
                 var time = game.DateTime
                 var opponent = game.AwayTeam
-                // console.log(game);
-                // console.log(info);
-                $('#time').val(time)
+                var formattedTime = time.substring(time.length -8)
+                // var anyString = 'Mozilla';
+                // var anyString4 = anyString.substring(anyString.length - 4);
+                // console.log(time);
+                // console.log(opponent);
+                $('#date').val(date)
+                $('#time').val(formattedTime)
                 $('#opponent').val(opponent)
                 // return info
             } else if (away) {
                 console.log(away);
                 // console.log(checkSchedule(awayTime))
-
+                var date = away.Day.substring(0,10)
                 var time = away.DateTime
                 var opponent = away.HomeTeam
+                var formattedTime = time.substring(time.length -8)
                 // checkSchedule(awayTime);
-                console.log(time);
-                console.log(opponent);
-
-                $('#time').val(time)
+                // console.log(time);
+                // console.log(opponent);
+                $('#date').val(date)
+                $('#time').val(formattedTime)
                 $('#opponent').val(opponent)
                     // console.log(info);
                 // return info
@@ -91,7 +97,6 @@ function checkSchedule(array) {
     var today = new Date()
     // var todayHome ="2017-04-07T16:10:00"
     // var todayAway = "2017-04-03T00:00:00"
-    // var testString = "2017-04-03T00:00:00"
     var convertDate = today.toISOString()
     var dateString = convertDate.substring(0,10)
     // console.log(dateString);
