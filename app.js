@@ -43,6 +43,7 @@ $(function() {
             // console.log(awayList);
             return [homeList, awayList]
         }).then(function(schedule) {
+//FUNCTION TO CHECK SEE IF TODAYS DATE MATCHES ANY ROCKIES GAME
             $('#nextGame').click(function(){
 
             var homeTime = schedule[0]
@@ -52,10 +53,12 @@ $(function() {
             // console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
             if (game) {
-                var info = game.DateTime + game.AwayTeam
+                var time = game.DateTime
+                var opponent = game.AwayTeam
                 // console.log(game);
                 // console.log(info);
-                $('#rockiesData').val(info)
+                $('#time').val(time)
+                $('#opponent').val(opponent)
                 return info
             } else if (away) {
                 // console.log(checkSchedule(awayTime))

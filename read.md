@@ -136,3 +136,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
   - it works for away games
   - it works for home games
 ///9th COMMIT///
+- It is time to start manipulating the string I am getting back for the date and the time and their opponent so that it is a useable format
+- I am going to whiteboard a little more here to see what it should ultimately look like
+- I think the best thing to do will be setting the path of each thing I want to its own value and not using them both, that should allow me to manipulate them correctly
+  - Dope this works I am going to commit then do the same thing with away and not home
+///10th COMMIT///
