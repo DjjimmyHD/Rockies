@@ -159,4 +159,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - So the first part works I can get a string that is useable
 - I set up a click function to check with out running the api
 - Going to commit and make sure that I can do the same thing to the actual day
-///13th COMMIT/// 
+///13th COMMIT///
+- time to try and see it the whole thing works
+- cool after some tinkering everything works
+- I need to add some comments so I know what is going on but looking good
+///14th COMMIT/// 
