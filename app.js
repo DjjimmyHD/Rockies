@@ -43,41 +43,44 @@ $(function() {
             // console.log(awayList);
             return [homeList, awayList]
         }).then(function(schedule) {
+            $('#nextGame').click(function(){
 
             var homeTime = schedule[0]
             var awayTime = schedule[1]
             var game = checkSchedule(homeTime)
             var away = checkSchedule(awayTime)
-            console.log(game);
+            // console.log(game);
             // !game === true ? console.log('hello') : console.log('no');
             if (game) {
                 var info = game.DateTime + game.AwayTeam
                 // console.log(game);
-                console.log(info);
+                // console.log(info);
+                $('#rockiesData').val(info)
                 return info
-
             } else if (away) {
                 // console.log(checkSchedule(awayTime))
-
-                checkSchedule(awayTime)
-                    var info = away.DateTime + away.HomeTeam
-                    console.log(info);
-
+                var info = away.DateTime + away.HomeTeam
+                checkSchedule(awayTime);
+                $('#rockiesData').val(info)
 
 
+                    // console.log(info);
+                return info
             } if (!game === true && !away === true) {
-                console.log("no game today")
+                $('#rockiesData').val('They are all sleeping probably')
+
+                // console.log("no game today")
             }
 
-
-            console.log(awayTime);
+        })
+        // console.log(awayTime);
         })
 });
 
 function checkSchedule(array) {
     var dateString = "meow"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === dateString ) {
+        if (array[i].GameID === 47607 ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }

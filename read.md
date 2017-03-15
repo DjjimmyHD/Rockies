@@ -131,3 +131,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 ///7th COMMIT///
 - All three conditions work time to start working on formatting them and displaying them on the webpage
 ///8th COMMIT///
+- Got the jquery to work, am fixing it to the home and away statement. Almost there
+  - it works for no games
+  - it works for away games
+  - it works for home games
+///9th COMMIT///
