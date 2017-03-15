@@ -59,18 +59,18 @@ $(function() {
                 // console.log(info);
                 $('#time').val(time)
                 $('#opponent').val(opponent)
-                return info
+                // return info
             } else if (away) {
                 // console.log(checkSchedule(awayTime))
-                var info = away.DateTime + away.HomeTeam
+                var time = away.DateTime
+                var opponent = away.HomeTeam
                 checkSchedule(awayTime);
-                $('#rockiesData').val(info)
-
-
+                $('#time').val(time)
+                $('#opponent').val(opponent)
                     // console.log(info);
-                return info
+                // return info
             } if (!game === true && !away === true) {
-                $('#rockiesData').val('They are all sleeping probably')
+                $('#gone').val('They are all sleeping probably')
 
                 // console.log("no game today")
             }
@@ -81,15 +81,21 @@ $(function() {
 });
 
 function checkSchedule(array) {
-    var dateString = "meow"
+    // var today = new Date()
+    // var curr_date = today.getDate();
+    // var curr_month = today.getMonth();
+    // curr_month++;
+    // var curr_year = today.getFullYear();
+    // var dateString = curr_year + "-0" + curr_month + "-" + curr_date + "T" + ":" + "00" + ":" + "00" + ":" + "00";
+    var dateString = "2017-04-03T00:00:00"
     for (var i = 0; i < array.length; i++) {
-        if (array[i].GameID === 47607 ) {
+        if (array[i].Day === dateString ) {
             // (console.log(array[i].DateTime, array[i].AwayTeam))
             return array[i]
         }
     }
 }
-
+//
 // function for getting the current date to display
 // $('#click').click(function (){
 //     var today = new Date()

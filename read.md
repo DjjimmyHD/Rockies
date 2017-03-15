@@ -141,3 +141,10 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - I think the best thing to do will be setting the path of each thing I want to its own value and not using them both, that should allow me to manipulate them correctly
   - Dope this works I am going to commit then do the same thing with away and not home
 ///10th COMMIT///
+- Away works
+- I am going to set up a separate location for no home game
+- Everything works I am going to plug in the variables to actually compare currentDate
+- I moved the variables for finding current date to where they need to be
+- I set var dateString to a certain day that the rockies were playing to make sure everything worked
+  - it did
+///11th COMMIT///
