@@ -180,3 +180,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - deployed as https://rockies-locator-e91df.firebaseapp.com
 - it is throwing a 404 server error message buuuuut everything still works
 ///17th COMMIT///
+- ok time to start making the product pretty so it is deployable
+- starting to make it pretty and I am thinking the way to go is one card and have that card on click reveal either away or home or no game
+- ultimately I want to each away card show the away stadium it the background but I want to focus on getting one at a time
+- I am going to commit and then work on getting different card for away and home
+///18th COMMIT///

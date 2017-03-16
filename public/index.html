@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Where Are The Rockies?</title>
+    <title>Track The Rockies</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
 </head>
 
 <body>
-
+    <!--
     <a id="nextGame" class="waves-effect waves-light btn-large">Where Are The Rockies?</a>
     <div class="row">
         <div class="input-field col s6">
@@ -33,6 +33,22 @@
         <div class="input-field col s6">
             <input value="" id="gone" type="text" class="validate">
             <label class="active" for="first_name2"></label>
+        </div>
+    </div> -->
+    <div class="card">
+        <div class="card-image">
+        <img src="rockies.png">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/office.jpg">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Where in the World Are The Rockies?<i id="nextGame" class="material-icons right">CLICK ME TO FIND OUT</i></span>
+            <!-- <p><a href="#">This is a link</a></p> -->
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4"><p id="answer"></p><i id="extra" class="material-icons right">Click to reveal more options</i></span>
+            <p id="gone"></p>
+        </div>
         </div>
     </div>
 
