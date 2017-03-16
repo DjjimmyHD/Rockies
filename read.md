@@ -202,3 +202,6 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - ok time to format home
 - I did away and it works
 ///21st COMMIT?///
+- now for home
+- totes works
+///22nd COMMIT///
