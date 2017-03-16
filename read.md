@@ -185,3 +185,6 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - ultimately I want to each away card show the away stadium it the background but I want to focus on getting one at a time
 - I am going to commit and then work on getting different card for away and home
 ///18th COMMIT///
+- It looks like I can only have one card reveal so I think I am going to write jquery that replaces for each option and then in the future have a button that allow for more options which will be search and then ands new card reveal
+- ugh it isnt pretty but I am getting there
+///19th COMMIT///
