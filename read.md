@@ -188,3 +188,14 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - It looks like I can only have one card reveal so I think I am going to write jquery that replaces for each option and then in the future have a button that allow for more options which will be search and then ands new card reveal
 - ugh it isnt pretty but I am getting there
 ///19th COMMIT///
+- lol i loaded it on my phone and one of the images isnt loading.
+- not important atm I am going to make sure I am ready for presenting
+- It is time to work on what will display if there is a rockies home game
+  - for dinger no game
+"https://n2sui257miu3ywn6u1xjyrz1-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/160609-ROCKIES-PITTSBURGH-JESSICA-TAVES-02-600x400.jpg"
+  - for rockies home game
+  https://cdn-sportsinsight.pressidium.com/wp-content/uploads/2015/07/Coors-Field-640x384.jpg
+  - for away
+  http://hd.wallpaperswide.com/thumbs/on_the_road_2-t2.jpg
+- ok well everything is generating for not here
+///20th COMMIT///
