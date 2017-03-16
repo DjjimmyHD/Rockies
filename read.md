@@ -199,3 +199,6 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
   http://hd.wallpaperswide.com/thumbs/on_the_road_2-t2.jpg
 - ok well everything is generating for not here
 ///20th COMMIT///
+- ok time to format home
+- I did away and it works
+///21st COMMIT?///

@@ -75,11 +75,15 @@ $(function() {
                 var opponent = away.HomeTeam
                 var formattedTime = time.substring(time.length -8)
                 // checkSchedule(awayTime);
-                // console.log(time);
-                // console.log(opponent);
-                $('#date').val(date)
-                $('#time').val(formattedTime)
-                $('#opponent').val(opponent)
+                console.log(time);
+                console.log(formattedTime);
+                console.log(opponent);
+                // $('#date').val(date)
+                // $('#time').val(formattedTime)
+                // $('#opponent').val(opponent)
+                $('#background').attr("src", 'http://hd.wallpaperswide.com/thumbs/on_the_road_2-t2.jpg')
+                $('#answer').html("The Rockies Are Elsewhere")
+                $('#gone').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
                     // console.log(info);
                 // return info
             } if (!game === true && !away === true) {
@@ -96,12 +100,12 @@ $(function() {
 });
 
 function checkSchedule(array) {
-    var today = new Date()
+    // var today = new Date()
     // var todayHome ="2017-04-07T16:10:00"
-    // var todayAway = "2017-04-03T00:00:00"
-    var convertDate = today.toISOString()
-    var dateString = convertDate.substring(0,10)
-    // console.log(dateString);
+    var todayAway = "2017-04-03T00:00:00"
+    // var convertDate = today.toISOString()
+    var dateString = todayAway.substring(0,10)
+    console.log(dateString);
     for (var i = 0; i < array.length; i++) {
         var matchDate = array[i].Day.substring(0,10)
         // array[i].Day = array[i].Day.substring(0,10)
