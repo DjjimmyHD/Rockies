@@ -177,3 +177,6 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - Time to test the default
   -Default works
 ///16th COMMIT///
+- deployed as https://rockies-locator-e91df.firebaseapp.com
+- it is throwing a 404 server error message buuuuut everything still works
+///17th COMMIT///
