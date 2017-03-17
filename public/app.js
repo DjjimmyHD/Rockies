@@ -91,7 +91,7 @@ $(function() {
                 // return info
             } if (!game === true && !away === true) {
                 // $('#gone').val('They are all sleeping probably')
-                $('#answer').html("They isn't a game scheduled for today")
+                $('#answer').html("They are off, there isn't a game scheduled for today")
                 $('#gone').html("Click on the button fo more options")
 
                 // console.log("no game today")

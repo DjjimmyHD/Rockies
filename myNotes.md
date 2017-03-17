@@ -214,3 +214,5 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - I have MVP I dont want to screw things up
 ///24th COMMIT///
 - Added footer and styling
+- updating my app for course Requirements
+- 
