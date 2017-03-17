@@ -210,3 +210,7 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - I also edited the alert message so that it tells you to click
 - If I have time I will throw a loading bar before the page loads
 ///23rd COMMIT///
+- I am done coding I just need to fix spelling errors and such
+- I have MVP I dont want to screw things up
+///24th COMMIT///
+- Added footer and styling

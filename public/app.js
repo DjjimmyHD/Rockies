@@ -67,8 +67,8 @@ $(function() {
                 // $('#time').val(formattedTime)
                 // $('#opponent').val(opponent)
                 $('#background').attr("src", 'https://cdn-sportsinsight.pressidium.com/wp-content/uploads/2015/07/Coors-Field-640x384.jpg')
-                $('#answer').html("The Rockies Are Home")
-                $('#gone').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
+                $('#gone').html("The Rockies Are Home")
+                $('#answer').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
                 // return info
             } else if (away) {
                 console.log(away);
@@ -78,23 +78,23 @@ $(function() {
                 var opponent = away.HomeTeam
                 var formattedTime = time.substring(time.length -8)
                 // checkSchedule(awayTime);
-                console.log(time);
-                console.log(formattedTime);
-                console.log(opponent);
+                // console.log(time);
+                // console.log(formattedTime);
+                // console.log(opponent);
                 // $('#date').val(date)
                 // $('#time').val(formattedTime)
                 // $('#opponent').val(opponent)
                 $('#background').attr("src", 'http://hd.wallpaperswide.com/thumbs/on_the_road_2-t2.jpg')
-                $('#answer').html("The Rockies Are Elsewhere")
-                $('#gone').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
+                $('#gone').html("The Rockies Are Elsewhere")
+                $('#answer').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
                     // console.log(info);
                 // return info
             } if (!game === true && !away === true) {
                 // $('#gone').val('They are all sleeping probably')
                 $('#answer').html("They isn't a game scheduled for today")
-                $('#gone').html("They are proably sleeping")
+                $('#gone').html("Click on the button fo more options")
 
-                console.log("no game today")
+                // console.log("no game today")
             }
     // console.log(homeTime);
         })
