@@ -209,3 +209,4 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - I changed the colors to more accurately depict the rockies
 - I also edited the alert message so that it tells you to click
 - If I have time I will throw a loading bar before the page loads
+///23rd COMMIT///
