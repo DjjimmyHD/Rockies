@@ -29,12 +29,12 @@
 
 ### WIREFRAMING  ###
 
-[wireframe 1](Rockies/wireframe/IMG_0919 4.JPG)
-[wireframe 2](Rockies/wireframe/IMG_0920 4.JPG)
-[wireframe 3](Rockies/wireframe/IMG_0921 4.JPG)
-[wireframe 4](Rockies/wireframe/IMG_0922 4.JPG)
-[wireframe 5](Rockies/wireframe/IMG_0923 4.JPG)
-[wireframe 6](Rockies/wireframe/IMG_0924 4.JPG)
+[wireframe 1](wireframe/IMG_0919 4.JPG)
+[wireframe 2](wireframe/IMG_0920 4.JPG)
+[wireframe 3](wireframe/IMG_0921 4.JPG)
+[wireframe 4](wireframe/IMG_0922 4.JPG)
+[wireframe 5](wireframe/IMG_0923 4.JPG)
+[wireframe 6](wireframe/IMG_0924 4.JPG)
 
 ### MORE ###
 - If you are interested in my process I don't make notes in my commits but rather in the [My Notes](Rockies/myNotes.md) folder

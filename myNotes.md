@@ -216,3 +216,4 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - Added footer and styling
 - updating my app for course Requirements
 ///25th COMMIT///
+- trying to format links in readme
