@@ -215,4 +215,4 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 ///24th COMMIT///
 - Added footer and styling
 - updating my app for course Requirements
-- 
+///25th COMMIT///
