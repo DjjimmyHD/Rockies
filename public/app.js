@@ -20,7 +20,7 @@ $(function() {
             alert("error");
         })
         .then(function(data) {
-            alert("success");
+            alert("You May Now Click");
 
             // Data is logging here
             // console.log(data);
@@ -68,7 +68,7 @@ $(function() {
                 // $('#opponent').val(opponent)
                 $('#background').attr("src", 'https://cdn-sportsinsight.pressidium.com/wp-content/uploads/2015/07/Coors-Field-640x384.jpg')
                 $('#answer').html("The Rockies Are Home")
-                $('#gone').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)     
+                $('#gone').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
                 // return info
             } else if (away) {
                 console.log(away);
@@ -103,11 +103,11 @@ $(function() {
 });
 
 function checkSchedule(array) {
-    // var today = new Date()
-    var todayHome ="2017-04-07T16:10:00"
+    var today = new Date()
+    // var todayHome ="2017-04-07T16:10:00"
     // var todayAway = "2017-04-03T00:00:00"
-    // var convertDate = today.toISOString()
-    var dateString = todayHome.substring(0,10)
+    var convertDate = today.toISOString()
+    var dateString = convertDate.substring(0,10)
     console.log(dateString);
     for (var i = 0; i < array.length; i++) {
         var matchDate = array[i].Day.substring(0,10)

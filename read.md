@@ -205,3 +205,7 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - now for home
 - totes works
 ///22nd COMMIT///
+- making things pretty
+- I changed the colors to more accurately depict the rockies
+- I also edited the alert message so that it tells you to click
+- If I have time I will throw a loading bar before the page loads
