@@ -219,3 +219,9 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - trying to format links in readme
 ///26th COMMIT///
 - fixed a bug that was converting the day based on Greenwhich Mean Time
+///27th COMMIT?///
+- Fixed the display so the user will be instructed to wait when arriving on the page
+- edited the alert so the user will be thanked for waiting
+- also created and id called "#wait" so that I could manipulate the message to the user
+- ultimately provided more clear instructions
+///28th COMMIT///
