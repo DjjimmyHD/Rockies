@@ -225,3 +225,8 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - also created and id called "#wait" so that I could manipulate the message to the user
 - ultimately provided more clear instructions
 ///28th COMMIT///
+-  reverted to some old variables and functions so I could better set the background pictures
+- updated the landing page
+- updated the rockies are home page
+- going to revert back to actual functions so there isnt the time zone problem before I push a deploy agains
+///29th COMMIT///

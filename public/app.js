@@ -68,7 +68,7 @@ $(function() {
                     // $('#date').val(date)
                     // $('#time').val(formattedTime)
                     // $('#opponent').val(opponent)
-                    $('#background').attr("src", 'https://cdn-sportsinsight.pressidium.com/wp-content/uploads/2015/07/Coors-Field-640x384.jpg')
+                    $('#background').attr("src", "https://res-5.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_645,q_50,w_1024/v1/clients/denver/93e01c10_690b_4984_8b74_54cda70b345a_afb9810e-f022-45e8-8a12-2c96327a7e35.jpg")
                     $('#gone').html("The Rockies Are Home")
                     $('#answer').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
                     // return info
