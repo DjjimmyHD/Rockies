@@ -1,6 +1,6 @@
 $(document).ready(function() {
     console.log('ready')
-    $('#wait').html("please wait for the page to load")
+    $('#wait').html("Please Wait While We Contact Our Sources")
 })
 $(function() {
     var params = {
