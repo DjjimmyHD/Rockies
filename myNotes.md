@@ -217,3 +217,5 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - updating my app for course Requirements
 ///25th COMMIT///
 - trying to format links in readme
+///26th COMMIT///
+- fixed a bug that was converting the day based on Greenwhich Mean Time
