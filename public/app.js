@@ -61,6 +61,7 @@ $(function() {
                     var time = game.DateTime
                     var opponent = game.AwayTeam
                     var formattedTime = time.substring(time.length - 8)
+                    var stringTime = formattedTime.slice(0,5)
                     // var anyString = 'Mozilla';
                     // var anyString4 = anyString.substring(anyString.length - 4);
                     // console.log(time);
@@ -69,8 +70,9 @@ $(function() {
                     // $('#time').val(formattedTime)
                     // $('#opponent').val(opponent)
                     $('#background').attr("src", "https://res-5.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_645,q_50,w_1024/v1/clients/denver/93e01c10_690b_4984_8b74_54cda70b345a_afb9810e-f022-45e8-8a12-2c96327a7e35.jpg")
-                    $('#gone').html("The Rockies Are Home")
-                    $('#answer').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
+                    $('#answer').html("The Rockies Are Home")
+                    $('#message').html("Times are in displayed Eastern Standard Time")
+                    $('#gone').html("COL vs" + " " + opponent + " " + "at" + " " + stringTime)
                     // return info
                 } else if (away) {
                     // console.log(away);
@@ -79,16 +81,21 @@ $(function() {
                     var time = away.DateTime
                     var opponent = away.HomeTeam
                     var formattedTime = time.substring(time.length - 8)
+                    var stringTime = formattedTime.slice(0,5)
+                    console.log(stringTime);
                     // checkSchedule(awayTime);
                     // console.log(time);
+                    // console.log(date);
                     // console.log(formattedTime);
+
                     // console.log(opponent);
                     // $('#date').val(date)
                     // $('#time').val(formattedTime)
                     // $('#opponent').val(opponent)
                     $('#background').attr("src", 'http://hd.wallpaperswide.com/thumbs/on_the_road_2-t2.jpg')
-                    $('#gone').html("The Rockies Are Elsewhere")
-                    $('#answer').html("they play" + " " + opponent + " " + "at" + " " + formattedTime)
+                    $('#answer').html("The Rockies Are Away")
+                    $('#message').html("Times are in displayed Eastern Standard Time")
+                    $('#gone').html("COL vs" + " " + opponent + " " + "at" + " " + stringTime)
                     // console.log(info);
                     // return info
                 }

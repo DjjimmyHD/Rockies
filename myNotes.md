@@ -230,3 +230,9 @@ SIDE NOTE FOR WHAT I WANT TO SHOW
 - updated the rockies are home page
 - going to revert back to actual functions so there isnt the time zone problem before I push a deploy agains
 ///29th COMMIT///
+- Ugh so much still to do but it is functional for now
+- I changed some formatting in the app.js to allow another message to display
+- I edited the index so that things were mroe legible
+- I still need to fix the time but I removed the seconds
+- going to run some tests and make sure it works for home
+///30th COMMIT///
