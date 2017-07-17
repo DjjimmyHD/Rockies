@@ -114,8 +114,8 @@ $(function() {
 
 function checkSchedule(array) {
     var tzoffset = (new Date()).getTimezoneOffset() * 60000;
-    // var today = new Date()
-    // console.log(tzoffset);
+    var today = new Date()
+    console.log(tzoffset);
     // var todayHome ="2017-04-07T16:10:00"
     // var todayAway = "2017-04-03T00:00:00"
     // var convertDate = today.toISOString()
@@ -123,7 +123,7 @@ function checkSchedule(array) {
     // console.log(convertDate);
     // console.log(localISOTime);
     var dateString = localISOTime.substring(0, 10)
-    // console.log(dateString);
+    console.log(dateString);
     for (var i = 0; i < array.length; i++) {
         var matchDate = array[i].Day.substring(0, 10)
         // array[i].Day = array[i].Day.substring(0,10)
